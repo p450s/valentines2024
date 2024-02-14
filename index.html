@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -10,23 +12,20 @@
 <style>
   body{
     background: #db9fb8;
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+;
   }
  
   h1{
     font-family: "Roboto";
     color:  #ce332f;
-    text-align: center; /* Center the heading */
-    margin-top: 20px; /* Add some top margin */
   }
 
   .container {
     position: relative;
-    width: 100%; /* Make the container full width */
-    max-width: 450px; /* Limit maximum width */
-    height: auto; /* Automatically adjust height */
-    margin: 0 auto; /* Center the container */
+    width: 100%;
+    max-width: 450px;
+    height: 300px;
+
     background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHo4M295M296aGM1Nzd0eXdwMGc0a3RqNnNzN2JyczV1djEyYXFrbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/11fIOE3vkIPdIY/giphy.gif');
     background-size: cover;
     background-position: center;
@@ -37,16 +36,16 @@
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 0);
-    height: auto; /* Automatically adjust height */
-    width: 100%; /* Make the image full width */
+    width: 80%;
+    height: 300px; /* Maintain aspect ratio */
   }
 
   .container-mini {
-    width: 100%; /* Make the container full width */
-    max-width: 400px; /* Limit maximum width */
-    margin: 20px auto; /* Center the container and add some margin */
+    width: 100%; /* Adjust width as needed */
+    max-width: 400px;
+    margin: 0 auto; /* Center the container */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust columns based on available space */
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px; /* Adjust padding between rectangles */
   }
 
@@ -56,7 +55,7 @@
     color: #000;
     padding: 20px;
     border-radius: 10px;
-    background-color: #fff; /* Background color of the rectangle */
+    background-color: #; /* Background color of the rectangle */
     text-align: center;
     text-decoration: none;
   }
@@ -76,25 +75,17 @@
   .subtitle {
     font-size: 16px;
   }
-
-  @media screen and (max-width: 480px) { /* Adjust for smaller screens like iPhones */
-    .container {
-      max-width: 100%; /* Make the container full width */
-    }
-
-    .container-mini {
-      max-width: 100%; /* Make the container full width */
-      padding: 0 10px; /* Add some horizontal padding */
-    }
-  }
 </style>
 </head>
 <body>
 
+<center>
+<p><p>
 <h1>💗 happy valentines damian 💗</h1>
 <div class="container">
   <img src="https://i.ibb.co/61dHbgv/damian.png" alt="Foreground Image" class="foreground-image">
 </div>
+<br><br>
 
 <div class="container-mini">
     <a href="https://open.spotify.com/track/1BViPjTT585XAhkUUrkts0?si=f826a813bd06441c" class="rectangle">
@@ -102,9 +93,47 @@
         <div class="subtitle">song</div>
     </a>
 
-    <!-- Add other links here -->
+    <a href="https://www.poetryfoundation.org/poems/44048/in-heaven" class="rectangle">
+        <div class="title">💗</div>
+        <div class="subtitle">poem</div>
+    </a>
 
+    <a href="https://www.goodreads.com/book/show/166982.Looking_for_Mr_Goodbar" class="rectangle">
+        <div class="title">💗</div>
+        <div class="subtitle">book</div>
+    </a>
+
+    <a href="https://vimeo.com/341842996" class="rectangle">
+        <div class="title">💗</div>
+        <div class="subtitle">video</div>
+    </a>
+
+    <a href="https://saddo.ro/The-Four-Kings" class="rectangle">
+        <div class="title">💗</div>
+        <div class="subtitle">painting</div>
+    </a>
+
+    <a href="https://www.serebii.net/card/gymchallenge/16.jpg" class="rectangle">
+        <div class="title">💗</div>
+        <div class="subtitle">pokemon card</div>
+    </a>
+
+    <a href="https://cowboybebop.fandom.com/wiki/Jupiter_Jazz_(Part_1)" class="rectangle">
+        <div class="title">💗</div>
+        <div class="subtitle">anime episode</div>
+    </a>
+
+    <a href="https://twitter.com/i/status/1676997183047110656" class="rectangle">
+        <div class="title">💗</div>
+        <div class="subtitle">gif</div>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=oG0a9WFkgzU&ab_channel=%C5%81ukaszFr%C4%85czek" class="rectangle">
+        <div class="title">💗</div>
+        <div class="subtitle">musical tune</div>
+    </a>
 </div>
-
+<br><br>
+</center>
 </body>
 </html>
